@@ -74,9 +74,9 @@ print("\n---Relaciones entre estados y costos---")
 g.mostrar_relaciones()
 
 recorrido_sin_repetir, costo_sin_repetir = g.recorrer_sin_repetir()
-print("\nRecorrido sin repetir ningún estado:", recorrido_sin_repetir)
+print("\nRecorrido sin repetir ningún estado:\n",recorrido_sin_repetir)
 print("El recorrido completo tiene como costo total:", costo_sin_repetir)
 
 recorrido_repeticion, costo_repeticion = g.recorrer_con_repeticion()
-print("\nRecorrido repitiendo al menos un estado:", recorrido_repeticion)
+print("\nRecorrido repitiendo al menos un estado:\n",recorrido_repeticion)
 print("El recorrido completo tiene como costo total:", costo_repeticion)
